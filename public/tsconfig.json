@@ -1,0 +1,19 @@
+{
+  "compilerOptions":
+  {
+    "module": "commonjs",
+    "sourceMap": true,
+    "target": "ES5",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "removeComments": false
+  },
+  "filesGlob":
+  [
+    "./polyfills.ts",
+    "./vendor.ts",
+    "./boot.ts",
+    "./app/**/*.ts",
+    "./typings/tsd.d.ts"
+  ]
+}

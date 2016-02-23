@@ -1,0 +1,22 @@
+<div layout="row" layout-padding>
+  <div flex-gt-md="30" flex-gt-sm="15" hide show-gt-sm></div>
+  <div flex>
+    <form (submit)='authenticate(username.value, password.value)' layout-padding="layout-padding">
+      <md-input-container class="md-block">
+        <label>Username</label>
+        <input md-input #username type='email' required>
+      </md-input-container>
+      <md-input-container class="md-block" flex-gt-sm>
+        <label>Password</label>
+        <input md-input #password type='password' required>
+      </md-input-container>
+      <div layout="column" layout-align="center center">
+        <button md-button>Login</button>
+      </div>
+    </form>
+    <div flex="none" layout="row" layout-align="center" layout-padding="layout-padding">
+      <span class="md-caption">GISLab Consulting Ltd. | {{date | date:'year'}}</span>
+    </div>
+  </div>
+  <div flex-gt-md="30" flex-gt-sm="15" hide show-gt-sm></div>
+</div>

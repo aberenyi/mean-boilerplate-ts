@@ -1,0 +1,42 @@
+{
+  "version": "v4",
+  "repo": "borisyankov/DefinitelyTyped",
+  "ref": "master",
+  "path": "typings",
+  "bundle": "typings/tsd.d.ts",
+  "installed": {
+    "node/node.d.ts": {
+      "commit": "3a660aad87d58e01cc8abee3729ee058899e9380"
+    },
+    "express/express.d.ts": {
+      "commit": "3a660aad87d58e01cc8abee3729ee058899e9380"
+    },
+    "serve-static/serve-static.d.ts": {
+      "commit": "3a660aad87d58e01cc8abee3729ee058899e9380"
+    },
+    "mime/mime.d.ts": {
+      "commit": "3a660aad87d58e01cc8abee3729ee058899e9380"
+    },
+    "passport/passport.d.ts": {
+      "commit": "3a660aad87d58e01cc8abee3729ee058899e9380"
+    },
+    "express-jwt/express-jwt.d.ts": {
+      "commit": "81b951f1ac437d1eb5ff5171a0bfa6c467634b13"
+    },
+    "express-unless/express-unless.d.ts": {
+      "commit": "81b951f1ac437d1eb5ff5171a0bfa6c467634b13"
+    },
+    "compression/compression.d.ts": {
+      "commit": "81b951f1ac437d1eb5ff5171a0bfa6c467634b13"
+    },
+    "express-session/express-session.d.ts": {
+      "commit": "81b951f1ac437d1eb5ff5171a0bfa6c467634b13"
+    },
+    "body-parser/body-parser.d.ts": {
+      "commit": "81b951f1ac437d1eb5ff5171a0bfa6c467634b13"
+    },
+    "morgan/morgan.d.ts": {
+      "commit": "81b951f1ac437d1eb5ff5171a0bfa6c467634b13"
+    }
+  }
+}

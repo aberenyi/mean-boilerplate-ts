@@ -1,0 +1,14 @@
+{
+  "compilerOptions":
+  {
+    "module": "commonjs",
+    "target": "ES5",
+    "sourceMap": true,
+    "rootDir": "src/"
+  },
+  "filesGlob":
+  [
+    "src/app/**/*.ts",
+    "src/typings/tsd.d.ts"
+  ]
+}
